@@ -1,0 +1,27 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "❱";
+    color: #b8b8b8;
+}
+.custom-switch{
+    border: none;
+}
+.custom-dash-block{
+    background-color: #0099ae;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 6px 10px -6px rgb(177, 176, 176);
+    -moz-box-shadow: 0 6px 10px -6px  rgb(177, 176, 176);
+         box-shadow: 0 6px 10px -6px  rgb(177, 176, 176); 
+}
+.custom-dash-block:hover{
+    -webkit-box-shadow: 0 10px 10px -6px #777;
+    -moz-box-shadow: 0 10px 10px -6px #777;
+         box-shadow: 0 10px 10px -6px #777; 
+}
+.custom-dash-block small{
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s;
+}
+.custom-dash-block:hover small{
+    border-bottom: 1px solid white;
+}
