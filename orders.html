@@ -100,7 +100,7 @@
                     <li class="header">Main</li>
                     <li><a href="index2.html"><i class="fa fa-tachometer"></i><span>Dashboard</span></a></li>
                     <li><a href="./site-settings.html"><i class="fa fa-cog"></i><span>Site Settings</span></a></li>
-                    <li class="active"><a href="./users.html"><i class="fa fa-users"></i><span>Users</span></a></li>
+                    <li><a href="./users.html"><i class="fa fa-users"></i><span>Users</span></a></li>
                     <li><a href="./sliders.html"><i class="fa fa-camera-retro"></i><span>Sliders</span></a></li>
                     <li><a href="./pages.html"><i class="fa fa-paper-plane-o"></i><span>Pages</span></a></li>
                     <li><a href="./giving-back.html"><i class="fa fa-reply-all"></i><span>Giving Back</span></a></li>
@@ -108,7 +108,7 @@
                     <li><a href="./categories.html"><i class="fa fa-list"></i><span>Categories</span></a></li>
                     <li><a href="./products.html"><i class="fa fa-shopping-cart"></i><span>Products</span></a></li>
                     <li><a href="./album-gallery.html"><i class="fa fa-picture-o"></i><span>Album Gallery</span></a></li>
-                    <li><a href="./orders.html"><i class="fa fa-shopping-basket"></i><span>Orders</span></a></li>
+                    <li class="active"><a href="./orders.html"><i class="fa fa-shopping-basket"></i><span>Orders</span></a></li>
                 </ul>
             </nav>    
         </div>
@@ -119,11 +119,11 @@
             <div class="block-header">
                 <div class="row clearfix">
                     <div class="col-md-6 col-sm-12">
-                        <h1>Users</h1>
+                        <h1>Orders</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Users</li>
+                            <li class="breadcrumb-item active" aria-current="page">Orders</li>
                             </ol>
                         </nav>
                     </div>
@@ -132,8 +132,7 @@
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 card mb-0">
                     <div class="header d-flex justify-content-between align-items-center">
-                        <h2>Add, Edit and Update Users</h2>
-                        <button type="button" class="btn btn-success"><i class="fa fa-user-plus" aria-hidden="true"></i> Add New User</button>
+                        <h2>Manage and Update Orders</h2>
                     </div>
                 </div>
             </div>
@@ -146,27 +145,23 @@
                                     <table class="table table-hover table-custom spacing8">
                                         <thead>
                                             <tr>
-                                                <th>S No.</th>
-                                                <th class="">Name</th>
-                                                <!--<th></th>
-                                                <th></th>-->
+                                                <th>Name</th>
                                                 <th>Email</th>
-                                                <th>Roles</th>
-                                                <th class="">Action</th>
+                                                <th>Subject</th>
+                                                <th>Date</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="">
-                                                <td class="width45">1</td>
                                                 <td>
                                                     <h6 class="mb-0">Marshall Nichols</h6>
-                                                    <!--<span>marshall-n@gmail.com</span>-->
                                                 </td>
                                                 <td>marshall-n@gmail.com</td>
-                                                <td><span class="badge badge-info mx-0">Super Admin</span></td>
+                                                <td>Lorem Ipsum Sit Amet Dolor</td>
+                                                <td>10 Jan 2020</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> Show</button>
-                                                    <button type="button" class="btn btn-outline-success btn-round mr-2"><i class="fa fa-pencil"></i> Edit</button>
+                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> View</button>
                                                     <button type="button" class="btn btn-outline-danger btn-round" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-trash-o"></i> Delete</button>
                                                     
                                                     <!-- Modal with btn -->
@@ -180,11 +175,11 @@
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <p>Do you really want to <strong class="text-danger">Delete this User?</strong></p>
+                                                                    <p>Do you really want to <strong class="text-danger">Delete this Order?</strong></p>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-round btn-default" data-dismiss="modal">Close</button>
-                                                                    <button type="button" class="btn btn-round btn-danger">Delete User</button>
+                                                                    <button type="button" class="btn btn-round btn-danger">Delete Order</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -192,15 +187,14 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="width45">2</td>
                                                 <td>
                                                     <h6 class="mb-0">Jack Dorsey</h6>
                                                 </td>
                                                 <td>jdorsey@gmail.com</td>
-                                                <td><span class="badge badge-info mx-0">Admin</span></td>
+                                                <td>Lorem Ipsum Sit Amet</td>
+                                                <td>2 Aug 2019</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> Show</button>
-                                                    <button type="button" class="btn btn-outline-success btn-round mr-2"><i class="fa fa-pencil"></i> Edit</button>
+                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> View</button>
                                                     <button type="button" class="btn btn-outline-danger btn-round" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-trash-o"></i> Delete</button>
                                                     
                                                     <!-- Modal with btn -->
@@ -214,85 +208,18 @@
                                                                     </button>
                                                                 </div>
                                                                 <div class="modal-body">
-                                                                    <p>Do you really want to <strong class="text-danger">Delete this User?</strong></p>
+                                                                    <p>Do you really want to <strong class="text-danger">Delete this Order?</strong></p>
                                                                 </div>
                                                                 <div class="modal-footer">
                                                                     <button type="button" class="btn btn-round btn-default" data-dismiss="modal">Close</button>
-                                                                    <button type="button" class="btn btn-round btn-danger">Delete User</button>
+                                                                    <button type="button" class="btn btn-round btn-danger">Delete Order</button>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div>  
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td class="width45">2</td>
-                                                <td>
-                                                    <h6 class="mb-0">Joe Rogan</h6>
-                                                </td>
-                                                <td>jr-experience@gmail.com</td>
-                                                <td><span class="badge badge-info mx-0">Editor</span></td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> Show</button>
-                                                    <button type="button" class="btn btn-outline-success btn-round mr-2"><i class="fa fa-pencil"></i> Edit</button>
-                                                    <button type="button" class="btn btn-outline-danger btn-round" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-trash-o"></i> Delete</button>
-                                                    
-                                                    <!-- Modal with btn -->
-                                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLabel">Are You Sure!</h5>
-                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <p>Do you really want to <strong class="text-danger">Delete this User?</strong></p>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-round btn-default" data-dismiss="modal">Close</button>
-                                                                    <button type="button" class="btn btn-round btn-danger">Delete User</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="width45">2</td>
-                                                <td>
-                                                    <h6 class="mb-0">John Doe</h6>
-                                                </td>
-                                                <td>johndoe80@gmail.com</td>
-                                                <td><span class="badge badge-info mx-0">Admin</span></td>
-                                                <td>
-                                                    <button type="button" class="btn btn-outline-info btn-round mr-2"><i class="fa fa-eye"></i> Show</button>
-                                                    <button type="button" class="btn btn-outline-success btn-round mr-2"><i class="fa fa-pencil"></i> Edit</button>
-                                                    <button type="button" class="btn btn-outline-danger btn-round" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-trash-o"></i> Delete</button>
-                                                    
-                                                    <!-- Modal with btn -->
-                                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLabel">Are You Sure!</h5>
-                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <p>Do you really want to <strong class="text-danger">Delete this User?</strong></p>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-round btn-default" data-dismiss="modal">Close</button>
-                                                                    <button type="button" class="btn btn-round btn-danger">Delete User</button>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </td>
-                                            </tr>
+                                            
                                         </tbody>
                                     </table>                
                                 </div>

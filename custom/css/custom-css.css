@@ -1,3 +1,16 @@
+/*Only for iPhone 5 SE and other highly small width devices*/
+@media screen and (max-width: 330px){
+    #main-content{
+        margin-top: 100px;
+    }
+}
+.custom-color{
+    color: #77797c;
+}
+.custom-heading{
+    font-size: 0.96rem;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     content: "❱";
     color: #b8b8b8;
@@ -24,4 +37,22 @@
 }
 .custom-dash-block:hover small{
     border-bottom: 1px solid white;
+}
+
+.custom-drag-table{
+    color: #77797c;
+    table-layout: fixed; 
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+.custom-drag-table tr{
+    background-color: #f1f4f6;
+}
+
+.input-group:hover .custom-input-prepend{
+    background-color: #17c2d7;
+}
+.input-group:hover .custom-input-prepend span{
+    color: white;
 }
