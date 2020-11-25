@@ -10,6 +10,21 @@
 .custom-heading{
     font-size: 0.96rem;
 }
+.custom-background{
+    background-color: #17c2d7;
+}
+.white-color{
+    color: white;
+}
+.gray-background{
+    background-color: #eaedf0;
+}
+.custom-border{
+    border: 1px solid  #c7c7c7;
+}
+.light-gray-background{
+    background-color: #f1f4f6;
+}
 
 .breadcrumb-item + .breadcrumb-item::before {
     content: "❱";
@@ -55,4 +70,11 @@
 }
 .input-group:hover .custom-input-prepend span{
     color: white;
+}
+.input-group:hover .custom-input-prepend label{
+    color: white;
+}
+
+.dd3-item > button{
+    margin-top: 1.5rem;
 }
