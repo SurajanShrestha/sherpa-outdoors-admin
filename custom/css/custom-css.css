@@ -78,3 +78,35 @@
 .dd3-item > button{
     margin-top: 1.5rem;
 }
+
+.custom-logo:hover{
+    background-color: white;
+}
+
+.light-link:hover .custom-gallery-btn{
+    visibility: visible;
+}
+.custom-gallery-btn{
+    visibility: hidden;
+    width: 88%;
+    position: absolute;
+    top: 40%;
+    /*display: flex;
+    justify-content: center;*/
+}
+/*For Samsung S5 type of screens*/
+@media screen and (max-width: 380px){
+    .custom-gallery-btn{
+        top: 10%;
+    }
+}
+
+.custom-media-btn{
+    visibility: hidden;
+    position: absolute;
+    top: 70%;
+    width: 88%;
+}
+.visible{
+    visibility: visible;
+}
